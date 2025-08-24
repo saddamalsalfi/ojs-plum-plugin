@@ -4,7 +4,7 @@ This plugin provides display of PlumX Metrics from [Plum Analytics](http://pluma
 
 ## Requirements
 
-* OJS 3.4 or later
+* OJS 3.5.0-1
 * Article level DOIs
   * see: Login -> Settings -> Website -> Plugins -> DOI
 * PlumX tracking of the artifacts with those DOIs
