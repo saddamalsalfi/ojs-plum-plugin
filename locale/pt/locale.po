@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-30T10:21:29-04:00\n"
+"PO-Revision-Date: 2021-04-30T10:21:29-04:00\n"
+"Language: \n"
+
+msgid "plugins.generic.plumAnalytics.displayName"
+msgstr "Plum Analytics Artifact Widget"
+
+msgid "plugins.generic.plumAnalytics.description"
+msgstr ""
+"Integra o OJS com PlumX, uma plataforma baseada em subscrição para rastrear o impacto da pesquisa. Através deste plugin, os clientes da PlumX podem incorporar o widget Artifact PlumX na visão de resumo do artigo no OJS para demonstrar a utilização, interação e comentários de cada artigo, através de dezenas de métricas extraídas da Web aberta. O artigo requer um DOI para o widget aparecer."
+
+msgid "plugins.generic.plumAnalytics.block.displayName"
+msgstr "Bloco do Widgets dos artigos no Plum Analytics"
+
+msgid "plugins.generic.plumAnalytics.manager.settings"
+msgstr "Configurações"
+
+msgid "plugins.generic.plumAnalytics.manager.plumAnalyticsSettings"
+msgstr "Configurações do widget dos artigos do Plum Analytics"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.description"
+msgstr ""
+"<p>Com este plug-in ativado, o widget de Artigos Plum Analytics será adicionado aos seus artigos. Isso requer um contrato de serviço com o PlumX: leia as <a href=\"http://plumanalytics.com/ojs_integration/\"> informações sobre a integração do PlumX e do OJS </a>. O DOI do artigo será usado para vincular as métricas dos Artigos PlumX. Para detalhes e exemplos das diferentes configurações de widgets, consulte a <a href=\"https://plu.mx/developers/widgets\" target=\"_blank\"> página de widgets do PlumX </a>.</ p>"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType"
+msgstr "Tipo do Widget"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType.plumx-plum-print-popup"
+msgstr "Pop Up"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType.plumx-summary"
+msgstr "Sumário"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType.plumx-details"
+msgstr "Detalhes"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetTypeInstructions"
+msgstr "Para obter detalhes e exemplos dos diferentes tipos de widgets, consulte o <a href=\"https://plu.mx/developers/widgets\" target=\"_blank\">PlumX Widgets Page</a>."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetTypeRequired"
+msgstr "O Tipo do Widget é obrigatório."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.width"
+msgstr "Largura"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widthInvalid"
+msgstr "A largura é inválida"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup"
+msgstr "Alinhamento Popup"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.left"
+msgstr "Esquerda"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.right"
+msgstr "Direita"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.top"
+msgstr "Topo"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.bottom"
+msgstr "Inferior"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.hidden"
+msgstr "Escondido"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hideWhenEmpty"
+msgstr "Escondido quando vazio"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.border"
+msgstr "Mostrar Rebordo"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hidePrint"
+msgstr "Esconder o PlumPrint"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.orientation"
+msgstr "Exibir Orientação"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.orientation.vertical"
+msgstr "Vertical"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.orientation.horizontal"
+msgstr "Horizontal"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook"
+msgstr "Exibir Widget"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook.footer"
+msgstr "No rodapé da página do artigo"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook.moreInfo"
+msgstr "Abaixo do resumo do artigo"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook.details"
+msgstr "Abaixo dos detalhes do artigo"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hookRequired"
+msgstr "É obrigatório indicar um local para exibir o widget."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hookInstructions"
+msgstr "Se selecionar o \"Bloco de Widgets de Artigos do Plum Analytics\", será necessário adicionar o bloco ao layout na Configuração; um título para o bloco poderá ser fornecido abaixo."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.htmlPrefix"
+msgstr "HTML Depois"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.htmlSuffix"
+msgstr "HTML Antes"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.blockTitle"
+msgstr "Titulo do Bloco"
