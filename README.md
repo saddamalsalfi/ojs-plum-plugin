@@ -1,10 +1,13 @@
+Unofficial fork of ulsdevteam/ojs-plum-plugin. Upgraded/maintained for OJS 3.4/3.5 by Saddam Al-Slfi.
+saddamalsalfi@qau.edu.ye, Queen Arwa University
+
 # Plum Analytics Artifact Widget plugin for OJS
 
 This plugin provides display of PlumX Metrics from [Plum Analytics](http://plumanalytics.com/) on the article level for PKP Open Journal Systems.
 
 ## Requirements
 
-* OJS 3.4 or later
+* OJS 3.5
 * Article level DOIs
   * see: Login -> Settings -> Website -> Plugins -> DOI
 * PlumX tracking of the artifacts with those DOIs

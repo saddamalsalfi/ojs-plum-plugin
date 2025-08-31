@@ -5,6 +5,7 @@
  *
  * Copyright (c) 2018 University of Pittsburgh
  * Distributed under the GNU GPL v2 or later. For full terms see the file docs/COPYING.
+ * Modified by: Saddam Al-Slfi <saddamalsalfi@qau.edu.ye>, Queen Arwa University — 2025-09-01 — OJS 3.4/3.5 upgrade
  *
  * @class PlumAnalyticsBlockPlugin
  * @ingroup plugins_generic_plumAnalytics
@@ -41,13 +42,13 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * @return boolean
 	 */
 	function getCurrentVersion() {
-		return false;
+		return '';
 	}
 
 	/**
 	 * @copydoc LazyLoadPlugin::getEnabled()
 	 */
-	function getEnabled($contextId = null) {
+	function getEnabled($contextId = null): bool {
 		if (!Config::getVar('general', 'installed')) return true;
 		return parent::getEnabled($contextId);
 	}
@@ -56,7 +57,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * Get the display name of this plugin.
 	 * @return String
 	 */
-	function getDisplayName() {
+	function getDisplayName(): string {
 		return __('plugins.generic.plumAnalytics.block.displayName');
 	}
 
@@ -64,7 +65,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * Get a description of the plugin.
 	 * @return String
 	 */
-	function getDescription() {
+	function getDescription(): string {
 		return __('plugins.generic.plumAnalytics.block.description');
 	}
 
@@ -72,7 +73,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * Hide this plugin from the management interface (it's subsidiary)
 	 * @return boolean
 	 */
-	function getHideManagement() {
+	function getHideManagement(): bool {
 		return true;
 	}
 
@@ -80,7 +81,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * Get the supported contexts (e.g. BLOCK_CONTEXT_...) for this block.
 	 * @return array
 	 */
-	function getSupportedContexts() {
+	function getSupportedContexts(): array {
 		return array(BLOCK_CONTEXT_SIDEBAR);
 	}
 
@@ -97,7 +98,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * Override the builtin to get the correct plugin path.
 	 * @return string
 	 */
-	function getPluginPath() {
+	function getPluginPath(): string {
 		return $this->pluginPath;
 	}
 
@@ -105,7 +106,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	 * Get the name of the block template file.
 	 * @return String
 	 */
-	function getBlockTemplateFilename() {
+	function getBlockTemplateFilename(): string {
 		$plugin = $this->getPlumPlugin();
 		return (method_exists($plugin, 'getTemplateResource') ? '' : 'templates'.DIRECTORY_SEPARATOR) . 'blockPlumWidget.tpl';
 	}
@@ -113,7 +114,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 	/**
 	 * @copydoc BlockPlugin::getContents()
 	 */
-	function getContents($templateMgr, $request = null) {
+	function getContents($templateMgr, $request = null): string {
 		$plugin = $this->getPlumPlugin();
 		$context = $request->getContext();
 		if ($templateMgr) {
@@ -124,7 +125,7 @@ class PlumAnalyticsBlockPlugin extends BlockPlugin {
 				return parent::getContents($templateMgr);
 			}
 		}
-		return false;
+		return '';
 	}
 }
 

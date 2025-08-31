@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: OJS Plum Analytics plugin (Unofficial fork)
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Al-Slfi
+    given-names: Saddam
+    affiliation: Queen Arwa University
+    email: saddamalsalfi@qau.edu.ye
+repository-code: https://github.com/saddamalsalfi/ojs-plum-plugin
+version: 1.6.1.0
+date-released: 2025-08-24

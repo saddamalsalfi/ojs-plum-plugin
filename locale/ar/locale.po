@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-30T10:15:20-04:00\n"
+"PO-Revision-Date: 2025-08-24 00:00+0000\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0?0:n==1?1:n==2?2:n%100>=3 && n%100<=10?3:n%100>=11 && n%100<=99?4:5;\n"
+
+msgid "plugins.generic.plumAnalytics.displayName"
+msgstr "ودجت أثر PlumX"
+
+msgid "plugins.generic.plumAnalytics.description"
+msgstr "تكامل OJS مع منصة PlumX (اشتراك مدفوع) لتتبُّع أثر البحوث. عبر هذه الإضافة يمكن لعملاء PlumX تضمين ودجت \"أثر PlumX\" في صفحة ملخص المقالة داخل OJS لإبراز كيفية استخدام كل مقالة والتفاعل معها والحديث عنها حول العالم، وذلك عبر عشرات المقاييس المستخلصة من الويب المفتوح. ظهور الودجت يتطلب وجود معرِّف DOI للمقالة."
+
+msgid "plugins.generic.plumAnalytics.block.displayName"
+msgstr "كتلة ودجت أثر PlumX"
+
+msgid "plugins.generic.plumAnalytics.manager.settings"
+msgstr "الإعدادات"
+
+msgid "plugins.generic.plumAnalytics.manager.plumAnalyticsSettings"
+msgstr "إعدادات ودجت أثر PlumX"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.description"
+msgstr "<p>عند تفعيل هذه الإضافة سيتم إدراج ودجت أثر PlumX في مقالاتك. يتطلب ذلك اتفاقية خدمة مع PlumX؛ يُرجى مراجعة <a href=\"http://plumanalytics.com/ojs_integration/\">معلومات تكامل PlumX مع OJS</a>. سيتم استخدام DOI الخاص بالمقالة لربطها بمقاييس أثر PlumX. للحصول على تفاصيل وأمثلة لإعدادات الودجت المختلفة، يُرجى مراجعة <a href=\"https://plu.mx/developers/widgets\" target=\"_blank\">صفحة ودجات PlumX</a>.</p>"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType"
+msgstr "نوع الودجت"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType.plumx-plum-print-popup"
+msgstr "نافذة منبثقة"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType.plumx-summary"
+msgstr "ملخّص"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetType.plumx-details"
+msgstr "تفاصيل"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetTypeInstructions"
+msgstr "للتفاصيل والأمثلة على أنواع الودجات المختلفة، يُرجى مراجعة <a href=\"https://plu.mx/developers/widgets\" target=\"_blank\">صفحة ودجات PlumX</a>."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widgetTypeRequired"
+msgstr "نوع الودجت مطلوب."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.width"
+msgstr "العرض"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.widthInvalid"
+msgstr "قيمة العرض غير صالحة."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup"
+msgstr "محاذاة النافذة المنبثقة"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.left"
+msgstr "يسار"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.right"
+msgstr "يمين"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.top"
+msgstr "أعلى"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.bottom"
+msgstr "أسفل"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.popup.hidden"
+msgstr "مخفي"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hideWhenEmpty"
+msgstr "إخفاء عند عدم وجود بيانات"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.border"
+msgstr "إظهار الإطار"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hidePrint"
+msgstr "إخفاء PlumPrint"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.orientation"
+msgstr "اتجاه العرض"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.orientation.vertical"
+msgstr "عمودي"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.orientation.horizontal"
+msgstr "أفقي"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook"
+msgstr "موضع العرض"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook.footer"
+msgstr "في تذييل صفحة المقالة"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook.moreInfo"
+msgstr "أسفل ملخص المقالة"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hook.details"
+msgstr "أسفل تفاصيل المقالة"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hookRequired"
+msgstr "يجب اختيار موضع لعرض الودجت."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.hookInstructions"
+msgstr "إذا اخترت \"Plum Analytics Artifact Widget Block\"، فستحتاج أيضًا إلى إضافة الكتلة إلى التخطيط من \"الإعداد\"، ويمكنك تحديد عنوان للكتلة أدناه."
+
+msgid "plugins.generic.plumAnalytics.manager.settings.htmlPrefix"
+msgstr "HTML قبل"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.htmlSuffix"
+msgstr "HTML بعد"
+
+msgid "plugins.generic.plumAnalytics.manager.settings.blockTitle"
+msgstr "عنوان الكتلة"

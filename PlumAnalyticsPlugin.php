@@ -5,6 +5,7 @@
  *
  * Copyright (c) 2018 University of Pittsburgh
  * Distributed under the GNU GPL v2 or later. For full terms see the file docs/COPYING.
+ * Modified by: Saddam Al-Slfi <saddamalsalfi@qau.edu.ye>, Queen Arwa University — 2025-09-01 — OJS 3.4/3.5 upgrade
  *
  * @class PlumAnalyticsPlugin
  * @ingroup plugins_generic_plumAnalytics
@@ -76,7 +77,7 @@ class PlumAnalyticsPlugin extends GenericPlugin {
 	/**
 	 * @copydoc Plugin::register()
 	 */
-	function register($category, $path, $mainContextId = null) {
+	function register($category, $path, $mainContextId = null): bool {
 		$success = parent::register($category, $path, $mainContextId);
 		if (!Config::getVar('general', 'installed') || defined('RUNNING_UPGRADE')) return true;
 		if ($success && $this->getEnabled()) {
@@ -99,7 +100,7 @@ class PlumAnalyticsPlugin extends GenericPlugin {
 	 * Get the display name of this plugin.
 	 * @return String
 	 */
-	function getDisplayName() {
+	function getDisplayName(): string {
 		return __('plugins.generic.plumAnalytics.displayName');
 	}
 
@@ -107,14 +108,14 @@ class PlumAnalyticsPlugin extends GenericPlugin {
 	 * Get a description of the plugin.
 	 * @return String
 	 */
-	function getDescription() {
+	function getDescription(): string {
 		return __('plugins.generic.plumAnalytics.description');
 	}
 
 	/**
 	 * @copydoc Plugin::getActions()
 	 */
-	function getActions($request, $verb) {
+	function getActions($request, $verb): array {
 		$router = $request->getRouter();
 		return array_merge(
 			$this->getEnabled()?array(
@@ -255,7 +256,7 @@ class PlumAnalyticsPlugin extends GenericPlugin {
 	/**
 	 * @copydoc Plugin::getTemplatePath()
 	 */
-	function getTemplatePath($inCore = false) {
+	function getTemplatePath($inCore = false): string {
 		return parent::getTemplatePath($inCore) . 'templates' . DIRECTORY_SEPARATOR;
 	}
 
