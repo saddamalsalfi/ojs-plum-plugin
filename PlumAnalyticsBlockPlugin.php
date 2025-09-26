@@ -4,9 +4,7 @@
  * @file plugins/generic/plumAnalytics/PlumAnalyticsBlockPlugin.inc.php
  *
  * Copyright (c) 2018 University of Pittsburgh
- * Distributed under the GNU GPL v2 or later. For full terms see the file docs/COPYING.
- * Modified by: Saddam Al-Slfi <saddamalsalfi@qau.edu.ye>, Queen Arwa University — 2025-09-01 — OJS 3.4/3.5 upgrade
- *
+ * Distributed under the GNU GPL v2 or later. For full terms see the file docs/COPYING. *
  * @class PlumAnalyticsBlockPlugin
  * @ingroup plugins_generic_plumAnalytics
  *
