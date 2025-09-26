@@ -5,5 +5,3 @@
 - Added Arabic locale (`locale/ar/locale.po`).
 - PHP 7/8+ return typehints on selected methods.
 - Minor cleanup.
-
-Maintainer: Saddam Al-Slfi — saddamalsalfi@qau.edu.ye, Queen Arwa University
