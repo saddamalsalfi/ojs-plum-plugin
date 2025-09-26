@@ -1,5 +1,3 @@
-Unofficial fork of ulsdevteam/ojs-plum-plugin. Upgraded/maintained for OJS 3.4/3.5 by Saddam Al-Slfi.
-saddamalsalfi@qau.edu.ye, Queen Arwa University
 
 # Plum Analytics Artifact Widget plugin for OJS
 
